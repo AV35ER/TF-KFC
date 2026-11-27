@@ -46,8 +46,7 @@ Abrir http://127.0.0.1:8080
 
 ## Publicar en Render
 
-- Build Command: `pip install -r requirements.txt`
-- Start Command: `gunicorn app:app`
+El Blueprint usa `runtime: docker` y construye la imagen desde `Dockerfile`. En Render, importa este repositorio y aplica el Blueprint de `render.yaml`; no configures comandos de build o inicio adicionales. El contenedor inicia Gunicorn y escucha en el puerto indicado por `PORT`.
 
 ## Pruebas automatizadas (Postman / Newman)
 
@@ -112,7 +111,7 @@ Este repositorio contiene una aplicación Flask con páginas renderizadas en ser
 
 Netlify puede compilar proyectos con Python disponible en el entorno de build, pero eso no proporciona un servidor Python para atender rutas Flask. Los Netlify Servers documentados actualmente ejecutan servidores Node.js escritos en JavaScript o TypeScript; las Functions documentadas usan handlers JavaScript/TypeScript (y existe una API compatible para Go). Por ello, conectar este repositorio tal como está a Netlify no desplegará funcionalmente /, /api/analizar ni /reporte-traduccion.pdf. No se incluye un netlify.toml que aparente resolverlo o publique solo archivos estáticos.
 
-La alternativa compatible para la aplicación actual es desplegar Flask en un servicio WSGI, por ejemplo Render. render.yaml define el servicio web, la instalación de dependencias, Gunicorn y la comprobación de salud. En Render, importa este repositorio y aplica el Blueprint; no se necesitan variables privadas. El plan gratuito puede tener límites de disponibilidad definidos por Render.
+La alternativa compatible para la aplicación actual es desplegar Flask en un servicio que ejecute contenedores, por ejemplo Render. render.yaml configura un servicio Docker basado en el Dockerfile del proyecto y comprueba su estado en `/`. En Render, importa este repositorio y aplica el Blueprint; no se necesitan variables privadas. El plan gratuito puede tener límites de disponibilidad definidos por Render.
 
 Netlify podría alojar una interfaz estática en el futuro si se separa del backend Flask y se configura para llamar a una API desplegada con una URL real. Esa separación y la URL del backend no existen en este proyecto, así que no se simula ese despliegue ni se añade una redirección a un destino inventado.
 
