@@ -1,0 +1,71 @@
+﻿API_SIGNATURES (javap):
+Compiled from "XMLCodec.java"
+public class file.XMLCodec extends file.Codec {
+  public static final java.lang.String SUFFIX;
+  public file.XMLCodec();
+  public boolean accept(java.io.File);
+  public java.io.Serializable decode(java.io.File, java.util.Map<?, ?>);
+  public java.io.File encode(java.io.Serializable, java.io.File, java.util.Map<?, ?>);
+  public boolean canEncode(java.io.Serializable);
+  public java.lang.String getDescription();
+  public java.lang.String proposeFilename(java.lang.String, java.io.Serializable);
+}
+Compiled from "TransducerFactory.java"
+public class file.xml.TransducerFactory {
+  public file.xml.TransducerFactory();
+  public static file.xml.Transducer getTransducer(org.w3c.dom.Document);
+  public static file.xml.Transducer getTransducer(java.io.Serializable);
+}
+Compiled from "FSATransducer.java"
+public class file.xml.FSATransducer extends file.xml.AutomatonTransducer {
+  public static final java.lang.String TRANSITION_READ_NAME;
+  public file.xml.FSATransducer();
+  public java.lang.String getType();
+}
+Compiled from "AutomatonTransducer.java"
+public abstract class file.xml.AutomatonTransducer extends file.xml.AbstractTransducer {
+  public static final java.lang.String BLOCK_NAME;
+  public static final java.lang.String STATE_NAME;
+  public static final java.lang.String STATE_ID_NAME;
+  public static final java.lang.String STATE_X_COORD_NAME;
+  public static final java.lang.String STATE_Y_COORD_NAME;
+  public static final java.lang.String STATE_LABEL_NAME;
+  public static final java.lang.String STATE_NAME_NAME;
+  public static final java.lang.String STATE_FINAL_NAME;
+  public static final java.lang.String STATE_INITIAL_NAME;
+  public static final java.lang.String TRANSITION_NAME;
+  public static final java.lang.String TRANSITION_FROM_NAME;
+  public static final java.lang.String TRANSITION_TO_NAME;
+  public static final java.lang.String TRANSITION_CONTROL_X;
+  public static final java.lang.String TRANSITION_CONTROL_Y;
+  public static final java.lang.String NOTE_NAME;
+  public static final java.lang.String NOTE_TEXT_NAME;
+  public file.xml.AutomatonTransducer();
+  public java.io.Serializable fromDOM(org.w3c.dom.Document);
+  public java.io.Serializable readAutomaton(org.w3c.dom.Node, org.w3c.dom.Document);
+  public org.w3c.dom.Document toDOM(java.io.Serializable);
+}
+Compiled from "FiniteStateAutomaton.java"
+public class automata.fsa.FiniteStateAutomaton extends automata.Automaton {
+  public automata.fsa.FiniteStateAutomaton();
+}
+Compiled from "AutomatonSimulator.java"
+public abstract class automata.AutomatonSimulator {
+  public automata.AutomatonSimulator(automata.Automaton);
+  public abstract automata.Configuration[] getInitialConfigurations(java.lang.String);
+  public abstract java.util.ArrayList<automata.Configuration> stepConfiguration(automata.Configuration);
+  public abstract boolean isAccepted();
+  public abstract boolean simulateInput(java.lang.String);
+  public automata.Automaton getAutomaton();
+}
+Compiled from "SimulatorFactory.java"
+public class automata.SimulatorFactory {
+  public automata.SimulatorFactory();
+  public static automata.AutomatonSimulator getSimulator(automata.Automaton);
+}
+Compiled from "FSAStepWithClosureSimulator.java"
+public class automata.fsa.FSAStepWithClosureSimulator extends automata.fsa.FSAStepByStateSimulator {
+  public automata.fsa.FSAStepWithClosureSimulator(automata.Automaton);
+  public automata.Configuration[] getInitialConfigurations(java.lang.String);
+  public java.util.ArrayList<automata.Configuration> stepConfiguration(automata.Configuration);
+}

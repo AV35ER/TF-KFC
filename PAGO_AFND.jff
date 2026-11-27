@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Generado por el Analizador de Pedidos KFC-->
+<structure>
+<type>fa</type>
+<automaton>
+<state id="0" name="p0"><x>60.0</x><y>60.0</y><initial/></state>
+<state id="1" name="p1"><x>170.0</x><y>60.0</y></state>
+<state id="2" name="p2"><x>170.0</x><y>140.0</y></state>
+<state id="3" name="p3"><x>170.0</x><y>220.0</y></state>
+<state id="4" name="p4"><x>170.0</x><y>300.0</y></state>
+<state id="5" name="p5"><x>280.0</x><y>60.0</y></state>
+<state id="6" name="p6"><x>280.0</x><y>140.0</y></state>
+<state id="7" name="p7"><x>280.0</x><y>220.0</y></state>
+<state id="8" name="p8"><x>280.0</x><y>300.0</y></state>
+<state id="9" name="p9"><x>390.0</x><y>60.0</y></state>
+<state id="10" name="p10"><x>390.0</x><y>140.0</y></state>
+<state id="11" name="p11"><x>390.0</x><y>220.0</y></state>
+<state id="12" name="p12"><x>390.0</x><y>300.0</y></state>
+<state id="13" name="p13"><x>500.0</x><y>60.0</y></state>
+<state id="14" name="p14"><x>500.0</x><y>140.0</y></state>
+<state id="15" name="p15"><x>500.0</x><y>220.0</y></state>
+<state id="16" name="p16"><x>500.0</x><y>300.0</y></state>
+<state id="17" name="p17"><x>610.0</x><y>60.0</y></state>
+<state id="18" name="p18"><x>610.0</x><y>140.0</y></state>
+<state id="19" name="p19"><x>610.0</x><y>220.0</y></state>
+<state id="20" name="p20"><x>610.0</x><y>300.0</y></state>
+<state id="21" name="p21"><x>720.0</x><y>60.0</y></state>
+<state id="22" name="p22"><x>720.0</x><y>140.0</y></state>
+<state id="23" name="p23"><x>720.0</x><y>220.0</y><final/></state>
+<state id="24" name="p24"><x>830.0</x><y>60.0</y></state>
+<state id="25" name="p25"><x>830.0</x><y>140.0</y></state>
+<state id="26" name="p26"><x>940.0</x><y>60.0</y></state>
+<state id="27" name="p27"><x>940.0</x><y>140.0</y></state>
+<state id="28" name="p28"><x>1050.0</x><y>60.0</y></state>
+<transition><from>1</from><to>5</to><read>E</read></transition>
+<transition><from>5</from><to>9</to><read>F</read></transition>
+<transition><from>9</from><to>13</to><read>E</read></transition>
+<transition><from>13</from><to>17</to><read>C</read></transition>
+<transition><from>17</from><to>21</to><read>T</read></transition>
+<transition><from>21</from><to>24</to><read>I</read></transition>
+<transition><from>24</from><to>26</to><read>V</read></transition>
+<transition><from>26</from><to>28</to><read>O</read></transition>
+<transition><from>2</from><to>6</to><read>T</read></transition>
+<transition><from>6</from><to>10</to><read>A</read></transition>
+<transition><from>10</from><to>14</to><read>R</read></transition>
+<transition><from>14</from><to>18</to><read>J</read></transition>
+<transition><from>18</from><to>22</to><read>E</read></transition>
+<transition><from>22</from><to>25</to><read>T</read></transition>
+<transition><from>25</from><to>27</to><read>A</read></transition>
+<transition><from>0</from><to>1</to><read/></transition>
+<transition><from>0</from><to>2</to><read/></transition>
+<transition><from>28</from><to>23</to><read/></transition>
+<transition><from>27</from><to>23</to><read/></transition>
+<transition><from>3</from><to>7</to><read>Y</read></transition>
+<transition><from>7</from><to>11</to><read>A</read></transition>
+<transition><from>11</from><to>15</to><read>P</read></transition>
+<transition><from>15</from><to>19</to><read>E</read></transition>
+<transition><from>0</from><to>3</to><read/></transition>
+<transition><from>19</from><to>23</to><read/></transition>
+<transition><from>4</from><to>8</to><read>P</read></transition>
+<transition><from>8</from><to>12</to><read>L</read></transition>
+<transition><from>12</from><to>16</to><read>I</read></transition>
+<transition><from>16</from><to>20</to><read>N</read></transition>
+<transition><from>0</from><to>4</to><read/></transition>
+<transition><from>20</from><to>23</to><read/></transition>
+</automaton>
+</structure>
