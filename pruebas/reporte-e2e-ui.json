@@ -1,0 +1,418 @@
+{
+  "baseUrl": "http://127.0.0.1:8080",
+  "startedAt": "2026-11-26T23:07:20.697Z",
+  "viewportChecks": [
+    {
+      "name": "escritorio_1440x900: formulario visible",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "escritorio_1440x900: sin desbordamiento horizontal global",
+      "passed": true,
+      "details": "document=1440px, viewport=1440px"
+    },
+    {
+      "name": "escritorio_1440x900: Viz.js renderiza autómatas y árbol",
+      "passed": true,
+      "details": "8 gráficos SVG"
+    },
+    {
+      "name": "escritorio_1440x900: encabezado GOTO visible en la tabla SLR",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "escritorio_1440x900: resumen del pedido visible",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "escritorio_1440x900: estructura adaptable presente",
+      "passed": true,
+      "details": "",
+      "measurements": {
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440,
+        "horizontalOverflow": false,
+        "graphCount": 8,
+        "tableWrappers": 13,
+        "slrHeader": true,
+        "viewportMeta": true
+      }
+    },
+    {
+      "name": "portatil_1366x768: formulario visible",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "portatil_1366x768: sin desbordamiento horizontal global",
+      "passed": true,
+      "details": "document=1366px, viewport=1366px"
+    },
+    {
+      "name": "portatil_1366x768: Viz.js renderiza autómatas y árbol",
+      "passed": true,
+      "details": "8 gráficos SVG"
+    },
+    {
+      "name": "portatil_1366x768: encabezado GOTO visible en la tabla SLR",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "portatil_1366x768: resumen del pedido visible",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "portatil_1366x768: estructura adaptable presente",
+      "passed": true,
+      "details": "",
+      "measurements": {
+        "viewportWidth": 1366,
+        "documentWidth": 1366,
+        "bodyWidth": 1366,
+        "horizontalOverflow": false,
+        "graphCount": 8,
+        "tableWrappers": 13,
+        "slrHeader": true,
+        "viewportMeta": true
+      }
+    },
+    {
+      "name": "movil_390x844: formulario visible",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "movil_390x844: sin desbordamiento horizontal global",
+      "passed": true,
+      "details": "document=390px, viewport=390px"
+    },
+    {
+      "name": "movil_390x844: Viz.js renderiza autómatas y árbol",
+      "passed": true,
+      "details": "8 gráficos SVG"
+    },
+    {
+      "name": "movil_390x844: encabezado GOTO visible en la tabla SLR",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "movil_390x844: resumen del pedido visible",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "movil_390x844: estructura adaptable presente",
+      "passed": true,
+      "details": "",
+      "measurements": {
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390,
+        "horizontalOverflow": false,
+        "graphCount": 8,
+        "tableWrappers": 13,
+        "slrHeader": true,
+        "viewportMeta": true
+      }
+    },
+    {
+      "name": "movil_390x844: tablas contenidas en sus contenedores",
+      "passed": true,
+      "details": "10 tablas requieren scroll horizontal interno"
+    },
+    {
+      "name": "movil_pequeno_360x800: formulario visible",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "movil_pequeno_360x800: sin desbordamiento horizontal global",
+      "passed": true,
+      "details": "document=360px, viewport=360px"
+    },
+    {
+      "name": "movil_pequeno_360x800: Viz.js renderiza autómatas y árbol",
+      "passed": true,
+      "details": "8 gráficos SVG"
+    },
+    {
+      "name": "movil_pequeno_360x800: encabezado GOTO visible en la tabla SLR",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "movil_pequeno_360x800: resumen del pedido visible",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "movil_pequeno_360x800: estructura adaptable presente",
+      "passed": true,
+      "details": "",
+      "measurements": {
+        "viewportWidth": 360,
+        "documentWidth": 360,
+        "bodyWidth": 360,
+        "horizontalOverflow": false,
+        "graphCount": 8,
+        "tableWrappers": 13,
+        "slrHeader": true,
+        "viewportMeta": true
+      }
+    },
+    {
+      "name": "movil_pequeno_360x800: tablas contenidas en sus contenedores",
+      "passed": true,
+      "details": "11 tablas requieren scroll horizontal interno"
+    }
+  ],
+  "functionalChecks": [
+    {
+      "name": "pedido válido: Pedidos válidos: 1 de 1",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "pedido válido: SINTAXIS CORRECTA",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "pedido válido: CORRECTO",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "error léxico: Error léxico",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "error léxico: No se evalúa",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "error sintáctico: Error sintáctico",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "error sintáctico: se esperaba cantidad",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "error sintáctico: No se evalúa",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "cantidad cero semántica R1: Error semántico (R1)",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "cantidad cero semántica R1: entre 1 y 50",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "cantidad 51 semántica R1: Error semántico (R1)",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "cantidad 51 semántica R1: entre 1 y 50",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "producto repetido semántica R2: Error semántico (R2)",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "producto repetido semántica R2: se repite",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "traducción se muestra solo tras las tres validaciones",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "la clasificación explica SQL como destino de nivel similar, no código máquina",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "pedido semánticamente rechazado no muestra SQL",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "mensajes describen simulación sin afirmar envío a cocina",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "múltiples pedidos: 2 válidos de 3 y líneas independientes",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "carga TXT: 3 pedidos de ejemplo válidos",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "entrada nueva reemplaza resultados del TXT anterior",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "descarga de ejemplo TXT funciona",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "descarga de PRODUCTO AFND",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "descarga de PRODUCTO AFD",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "descarga de CANTIDAD AFND",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "descarga de CANTIDAD AFD",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "descarga de PAGO AFND",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "descarga de PAGO AFD",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "zoom de gráfico funciona sin ensanchar la página",
+      "passed": true,
+      "details": "document=1440px"
+    },
+    {
+      "name": "gráfico PRODUCTO ampliable en móvil con scroll interno",
+      "passed": true,
+      "details": "contenedor=229px, página=360px"
+    },
+    {
+      "name": "reporte PDF se descarga con firma PDF y ambos pedidos",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "downloads": [
+    {
+      "name": "ejemplo.txt",
+      "failure": null
+    },
+    {
+      "name": "PRODUCTO_AFND.jff",
+      "failure": null
+    },
+    {
+      "name": "PRODUCTO_AFD.jff",
+      "failure": null
+    },
+    {
+      "name": "CANTIDAD_AFND.jff",
+      "failure": null
+    },
+    {
+      "name": "CANTIDAD_AFD.jff",
+      "failure": null
+    },
+    {
+      "name": "PAGO_AFND.jff",
+      "failure": null
+    },
+    {
+      "name": "PAGO_AFD.jff",
+      "failure": null
+    },
+    {
+      "name": "reporte-traduccion-dsl.pdf",
+      "failure": null,
+      "bytes": 44848,
+      "startsWithPdfSignature": true
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "expectedDownloadAborts": [
+    {
+      "url": "http://127.0.0.1:8080/ejemplo.txt",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:8080/jflap/PRODUCTO_afnd.jff",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:8080/jflap/PRODUCTO_afd.jff",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:8080/jflap/CANTIDAD_afnd.jff",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:8080/jflap/CANTIDAD_afd.jff",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:8080/jflap/PAGO_afnd.jff",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:8080/jflap/PAGO_afd.jff",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:8080/reporte-traduccion.pdf",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "finishedAt": "2026-11-26T23:07:32.535Z",
+  "summary": {
+    "viewportChecks": 26,
+    "viewportFailures": 0,
+    "functionalChecks": 31,
+    "functionalFailures": 0,
+    "consoleErrors": 0,
+    "pageErrors": 0,
+    "failedRequests": 0,
+    "expectedDownloadAborts": 8,
+    "screenshots": 21
+  }
+}

@@ -1,0 +1,3998 @@
+{
+  "generatedAt": "2026-11-27T04:52:22.409521800Z",
+  "javaVersion": "17.0.21",
+  "javaRuntime": "17.0.21+9",
+  "headless": true,
+  "jflapVersion": "7.1 (JFLAP7.1.jar; manifest has no Implementation-Version)",
+  "jflapJarSha256": "A22C095DDC56B18163E8EBEEEF165B3A04CB570F35EB46B96105166E06C99406",
+  "readerClass": "file.XMLCodec",
+  "simulatorFactory": "automata.SimulatorFactory",
+  "loadedFiles": [{
+  "file": "PRODUCTO_AFND.jff",
+  "declaredType": "AFND",
+  "loaded": true,
+  "readerClass": "file.XMLCodec",
+  "automatonClass": "automata.fsa.FiniteStateAutomaton",
+  "simulatorFactory": "automata.SimulatorFactory",
+  "simulatorClass": "automata.fsa.FSAStepWithClosureSimulator",
+  "stateCount": 79,
+  "transitionCount": 87,
+  "initialState": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "finalStates": [{
+  "id": 61,
+  "name": "p61",
+  "label": null
+}],
+  "states": [{
+  "id": 0,
+  "name": "p0",
+  "label": null
+}, {
+  "id": 1,
+  "name": "p1",
+  "label": null
+}, {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}, {
+  "id": 3,
+  "name": "p3",
+  "label": null
+}, {
+  "id": 4,
+  "name": "p4",
+  "label": null
+}, {
+  "id": 5,
+  "name": "p5",
+  "label": null
+}, {
+  "id": 6,
+  "name": "p6",
+  "label": null
+}, {
+  "id": 7,
+  "name": "p7",
+  "label": null
+}, {
+  "id": 8,
+  "name": "p8",
+  "label": null
+}, {
+  "id": 9,
+  "name": "p9",
+  "label": null
+}, {
+  "id": 10,
+  "name": "p10",
+  "label": null
+}, {
+  "id": 11,
+  "name": "p11",
+  "label": null
+}, {
+  "id": 12,
+  "name": "p12",
+  "label": null
+}, {
+  "id": 13,
+  "name": "p13",
+  "label": null
+}, {
+  "id": 14,
+  "name": "p14",
+  "label": null
+}, {
+  "id": 15,
+  "name": "p15",
+  "label": null
+}, {
+  "id": 16,
+  "name": "p16",
+  "label": null
+}, {
+  "id": 17,
+  "name": "p17",
+  "label": null
+}, {
+  "id": 18,
+  "name": "p18",
+  "label": null
+}, {
+  "id": 19,
+  "name": "p19",
+  "label": null
+}, {
+  "id": 20,
+  "name": "p20",
+  "label": null
+}, {
+  "id": 21,
+  "name": "p21",
+  "label": null
+}, {
+  "id": 22,
+  "name": "p22",
+  "label": null
+}, {
+  "id": 23,
+  "name": "p23",
+  "label": null
+}, {
+  "id": 24,
+  "name": "p24",
+  "label": null
+}, {
+  "id": 25,
+  "name": "p25",
+  "label": null
+}, {
+  "id": 26,
+  "name": "p26",
+  "label": null
+}, {
+  "id": 27,
+  "name": "p27",
+  "label": null
+}, {
+  "id": 28,
+  "name": "p28",
+  "label": null
+}, {
+  "id": 29,
+  "name": "p29",
+  "label": null
+}, {
+  "id": 30,
+  "name": "p30",
+  "label": null
+}, {
+  "id": 31,
+  "name": "p31",
+  "label": null
+}, {
+  "id": 32,
+  "name": "p32",
+  "label": null
+}, {
+  "id": 33,
+  "name": "p33",
+  "label": null
+}, {
+  "id": 34,
+  "name": "p34",
+  "label": null
+}, {
+  "id": 35,
+  "name": "p35",
+  "label": null
+}, {
+  "id": 36,
+  "name": "p36",
+  "label": null
+}, {
+  "id": 37,
+  "name": "p37",
+  "label": null
+}, {
+  "id": 38,
+  "name": "p38",
+  "label": null
+}, {
+  "id": 39,
+  "name": "p39",
+  "label": null
+}, {
+  "id": 40,
+  "name": "p40",
+  "label": null
+}, {
+  "id": 41,
+  "name": "p41",
+  "label": null
+}, {
+  "id": 42,
+  "name": "p42",
+  "label": null
+}, {
+  "id": 43,
+  "name": "p43",
+  "label": null
+}, {
+  "id": 44,
+  "name": "p44",
+  "label": null
+}, {
+  "id": 45,
+  "name": "p45",
+  "label": null
+}, {
+  "id": 46,
+  "name": "p46",
+  "label": null
+}, {
+  "id": 47,
+  "name": "p47",
+  "label": null
+}, {
+  "id": 48,
+  "name": "p48",
+  "label": null
+}, {
+  "id": 49,
+  "name": "p49",
+  "label": null
+}, {
+  "id": 50,
+  "name": "p50",
+  "label": null
+}, {
+  "id": 51,
+  "name": "p51",
+  "label": null
+}, {
+  "id": 52,
+  "name": "p52",
+  "label": null
+}, {
+  "id": 53,
+  "name": "p53",
+  "label": null
+}, {
+  "id": 54,
+  "name": "p54",
+  "label": null
+}, {
+  "id": 55,
+  "name": "p55",
+  "label": null
+}, {
+  "id": 56,
+  "name": "p56",
+  "label": null
+}, {
+  "id": 57,
+  "name": "p57",
+  "label": null
+}, {
+  "id": 58,
+  "name": "p58",
+  "label": null
+}, {
+  "id": 59,
+  "name": "p59",
+  "label": null
+}, {
+  "id": 60,
+  "name": "p60",
+  "label": null
+}, {
+  "id": 61,
+  "name": "p61",
+  "label": null
+}, {
+  "id": 62,
+  "name": "p62",
+  "label": null
+}, {
+  "id": 63,
+  "name": "p63",
+  "label": null
+}, {
+  "id": 64,
+  "name": "p64",
+  "label": null
+}, {
+  "id": 65,
+  "name": "p65",
+  "label": null
+}, {
+  "id": 66,
+  "name": "p66",
+  "label": null
+}, {
+  "id": 67,
+  "name": "p67",
+  "label": null
+}, {
+  "id": 68,
+  "name": "p68",
+  "label": null
+}, {
+  "id": 69,
+  "name": "p69",
+  "label": null
+}, {
+  "id": 70,
+  "name": "p70",
+  "label": null
+}, {
+  "id": 71,
+  "name": "p71",
+  "label": null
+}, {
+  "id": 72,
+  "name": "p72",
+  "label": null
+}, {
+  "id": 73,
+  "name": "p73",
+  "label": null
+}, {
+  "id": 74,
+  "name": "p74",
+  "label": null
+}, {
+  "id": 75,
+  "name": "p75",
+  "label": null
+}, {
+  "id": 76,
+  "name": "p76",
+  "label": null
+}, {
+  "id": 77,
+  "name": "p77",
+  "label": null
+}, {
+  "id": 78,
+  "name": "p78",
+  "label": null
+}],
+  "transitions": [{
+  "label": "P",
+  "from": {
+  "id": 30,
+  "name": "p30",
+  "label": null
+},
+  "to": {
+  "id": 40,
+  "name": "p40",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 54,
+  "name": "p54",
+  "label": null
+},
+  "to": {
+  "id": 61,
+  "name": "p61",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 47,
+  "name": "p47",
+  "label": null
+},
+  "to": {
+  "id": 57,
+  "name": "p57",
+  "label": null
+}
+}, {
+  "label": "I",
+  "from": {
+  "id": 22,
+  "name": "p22",
+  "label": null
+},
+  "to": {
+  "id": 32,
+  "name": "p32",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 7,
+  "name": "p7",
+  "label": null
+}
+}, {
+  "label": "L",
+  "from": {
+  "id": 29,
+  "name": "p29",
+  "label": null
+},
+  "to": {
+  "id": 39,
+  "name": "p39",
+  "label": null
+}
+}, {
+  "label": "U",
+  "from": {
+  "id": 17,
+  "name": "p17",
+  "label": null
+},
+  "to": {
+  "id": 27,
+  "name": "p27",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 77,
+  "name": "p77",
+  "label": null
+},
+  "to": {
+  "id": 78,
+  "name": "p78",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 55,
+  "name": "p55",
+  "label": null
+},
+  "to": {
+  "id": 64,
+  "name": "p64",
+  "label": null
+}
+}, {
+  "label": "H",
+  "from": {
+  "id": 3,
+  "name": "p3",
+  "label": null
+},
+  "to": {
+  "id": 13,
+  "name": "p13",
+  "label": null
+}
+}, {
+  "label": "B",
+  "from": {
+  "id": 33,
+  "name": "p33",
+  "label": null
+},
+  "to": {
+  "id": 43,
+  "name": "p43",
+  "label": null
+}
+}, {
+  "label": "G",
+  "from": {
+  "id": 27,
+  "name": "p27",
+  "label": null
+},
+  "to": {
+  "id": 37,
+  "name": "p37",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 67,
+  "name": "p67",
+  "label": null
+},
+  "to": {
+  "id": 61,
+  "name": "p61",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 34,
+  "name": "p34",
+  "label": null
+},
+  "to": {
+  "id": 44,
+  "name": "p44",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 15,
+  "name": "p15",
+  "label": null
+},
+  "to": {
+  "id": 25,
+  "name": "p25",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 8,
+  "name": "p8",
+  "label": null
+},
+  "to": {
+  "id": 18,
+  "name": "p18",
+  "label": null
+}
+}, {
+  "label": "L",
+  "from": {
+  "id": 31,
+  "name": "p31",
+  "label": null
+},
+  "to": {
+  "id": 41,
+  "name": "p41",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 13,
+  "name": "p13",
+  "label": null
+},
+  "to": {
+  "id": 23,
+  "name": "p23",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 16,
+  "name": "p16",
+  "label": null
+},
+  "to": {
+  "id": 26,
+  "name": "p26",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 65,
+  "name": "p65",
+  "label": null
+},
+  "to": {
+  "id": 71,
+  "name": "p71",
+  "label": null
+}
+}, {
+  "label": "P",
+  "from": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+},
+  "to": {
+  "id": 11,
+  "name": "p11",
+  "label": null
+}
+}, {
+  "label": "U",
+  "from": {
+  "id": 69,
+  "name": "p69",
+  "label": null
+},
+  "to": {
+  "id": 74,
+  "name": "p74",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 51,
+  "name": "p51",
+  "label": null
+},
+  "to": {
+  "id": 61,
+  "name": "p61",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 45,
+  "name": "p45",
+  "label": null
+},
+  "to": {
+  "id": 55,
+  "name": "p55",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 39,
+  "name": "p39",
+  "label": null
+},
+  "to": {
+  "id": 49,
+  "name": "p49",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 58,
+  "name": "p58",
+  "label": null
+},
+  "to": {
+  "id": 66,
+  "name": "p66",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 19,
+  "name": "p19",
+  "label": null
+},
+  "to": {
+  "id": 29,
+  "name": "p29",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 41,
+  "name": "p41",
+  "label": null
+},
+  "to": {
+  "id": 51,
+  "name": "p51",
+  "label": null
+}
+}, {
+  "label": "P",
+  "from": {
+  "id": 4,
+  "name": "p4",
+  "label": null
+},
+  "to": {
+  "id": 14,
+  "name": "p14",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 14,
+  "name": "p14",
+  "label": null
+},
+  "to": {
+  "id": 24,
+  "name": "p24",
+  "label": null
+}
+}, {
+  "label": "D",
+  "from": {
+  "id": 49,
+  "name": "p49",
+  "label": null
+},
+  "to": {
+  "id": 59,
+  "name": "p59",
+  "label": null
+}
+}, {
+  "label": "R",
+  "from": {
+  "id": 60,
+  "name": "p60",
+  "label": null
+},
+  "to": {
+  "id": 68,
+  "name": "p68",
+  "label": null
+}
+}, {
+  "label": "B",
+  "from": {
+  "id": 36,
+  "name": "p36",
+  "label": null
+},
+  "to": {
+  "id": 46,
+  "name": "p46",
+  "label": null
+}
+}, {
+  "label": "T",
+  "from": {
+  "id": 32,
+  "name": "p32",
+  "label": null
+},
+  "to": {
+  "id": 42,
+  "name": "p42",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 44,
+  "name": "p44",
+  "label": null
+},
+  "to": {
+  "id": 54,
+  "name": "p54",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 46,
+  "name": "p46",
+  "label": null
+},
+  "to": {
+  "id": 56,
+  "name": "p56",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 56,
+  "name": "p56",
+  "label": null
+},
+  "to": {
+  "id": 61,
+  "name": "p61",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 38,
+  "name": "p38",
+  "label": null
+},
+  "to": {
+  "id": 48,
+  "name": "p48",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 20,
+  "name": "p20",
+  "label": null
+},
+  "to": {
+  "id": 30,
+  "name": "p30",
+  "label": null
+}
+}, {
+  "label": "P",
+  "from": {
+  "id": 24,
+  "name": "p24",
+  "label": null
+},
+  "to": {
+  "id": 34,
+  "name": "p34",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 4,
+  "name": "p4",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 62,
+  "name": "p62",
+  "label": null
+},
+  "to": {
+  "id": 61,
+  "name": "p61",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 50,
+  "name": "p50",
+  "label": null
+},
+  "to": {
+  "id": 60,
+  "name": "p60",
+  "label": null
+}
+}, {
+  "label": "C",
+  "from": {
+  "id": 6,
+  "name": "p6",
+  "label": null
+},
+  "to": {
+  "id": 16,
+  "name": "p16",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 73,
+  "name": "p73",
+  "label": null
+},
+  "to": {
+  "id": 61,
+  "name": "p61",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 71,
+  "name": "p71",
+  "label": null
+},
+  "to": {
+  "id": 61,
+  "name": "p61",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 10,
+  "name": "p10",
+  "label": null
+}
+}, {
+  "label": "R",
+  "from": {
+  "id": 53,
+  "name": "p53",
+  "label": null
+},
+  "to": {
+  "id": 63,
+  "name": "p63",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 8,
+  "name": "p8",
+  "label": null
+}
+}, {
+  "label": "G",
+  "from": {
+  "id": 63,
+  "name": "p63",
+  "label": null
+},
+  "to": {
+  "id": 69,
+  "name": "p69",
+  "label": null
+}
+}, {
+  "label": "L",
+  "from": {
+  "id": 21,
+  "name": "p21",
+  "label": null
+},
+  "to": {
+  "id": 31,
+  "name": "p31",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 11,
+  "name": "p11",
+  "label": null
+},
+  "to": {
+  "id": 21,
+  "name": "p21",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 78,
+  "name": "p78",
+  "label": null
+},
+  "to": {
+  "id": 61,
+  "name": "p61",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 35,
+  "name": "p35",
+  "label": null
+},
+  "to": {
+  "id": 45,
+  "name": "p45",
+  "label": null
+}
+}, {
+  "label": "M",
+  "from": {
+  "id": 23,
+  "name": "p23",
+  "label": null
+},
+  "to": {
+  "id": 33,
+  "name": "p33",
+  "label": null
+}
+}, {
+  "label": "N",
+  "from": {
+  "id": 7,
+  "name": "p7",
+  "label": null
+},
+  "to": {
+  "id": 17,
+  "name": "p17",
+  "label": null
+}
+}, {
+  "label": "N",
+  "from": {
+  "id": 18,
+  "name": "p18",
+  "label": null
+},
+  "to": {
+  "id": 28,
+  "name": "p28",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 3,
+  "name": "p3",
+  "label": null
+}
+}, {
+  "label": "C",
+  "from": {
+  "id": 40,
+  "name": "p40",
+  "label": null
+},
+  "to": {
+  "id": 50,
+  "name": "p50",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+},
+  "to": {
+  "id": 12,
+  "name": "p12",
+  "label": null
+}
+}, {
+  "label": "M",
+  "from": {
+  "id": 26,
+  "name": "p26",
+  "label": null
+},
+  "to": {
+  "id": 36,
+  "name": "p36",
+  "label": null
+}
+}, {
+  "label": "L",
+  "from": {
+  "id": 48,
+  "name": "p48",
+  "label": null
+},
+  "to": {
+  "id": 58,
+  "name": "p58",
+  "label": null
+}
+}, {
+  "label": "G",
+  "from": {
+  "id": 5,
+  "name": "p5",
+  "label": null
+},
+  "to": {
+  "id": 15,
+  "name": "p15",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 5,
+  "name": "p5",
+  "label": null
+}
+}, {
+  "label": "H",
+  "from": {
+  "id": 9,
+  "name": "p9",
+  "label": null
+},
+  "to": {
+  "id": 19,
+  "name": "p19",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 74,
+  "name": "p74",
+  "label": null
+},
+  "to": {
+  "id": 76,
+  "name": "p76",
+  "label": null
+}
+}, {
+  "label": "L",
+  "from": {
+  "id": 12,
+  "name": "p12",
+  "label": null
+},
+  "to": {
+  "id": 22,
+  "name": "p22",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 64,
+  "name": "p64",
+  "label": null
+},
+  "to": {
+  "id": 70,
+  "name": "p70",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 28,
+  "name": "p28",
+  "label": null
+},
+  "to": {
+  "id": 38,
+  "name": "p38",
+  "label": null
+}
+}, {
+  "label": "P",
+  "from": {
+  "id": 10,
+  "name": "p10",
+  "label": null
+},
+  "to": {
+  "id": 20,
+  "name": "p20",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 70,
+  "name": "p70",
+  "label": null
+},
+  "to": {
+  "id": 61,
+  "name": "p61",
+  "label": null
+}
+}, {
+  "label": "G",
+  "from": {
+  "id": 37,
+  "name": "p37",
+  "label": null
+},
+  "to": {
+  "id": 47,
+  "name": "p47",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 6,
+  "name": "p6",
+  "label": null
+}
+}, {
+  "label": "N",
+  "from": {
+  "id": 68,
+  "name": "p68",
+  "label": null
+},
+  "to": {
+  "id": 73,
+  "name": "p73",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 59,
+  "name": "p59",
+  "label": null
+},
+  "to": {
+  "id": 67,
+  "name": "p67",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 9,
+  "name": "p9",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 42,
+  "name": "p42",
+  "label": null
+},
+  "to": {
+  "id": 52,
+  "name": "p52",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 75,
+  "name": "p75",
+  "label": null
+},
+  "to": {
+  "id": 61,
+  "name": "p61",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 76,
+  "name": "p76",
+  "label": null
+},
+  "to": {
+  "id": 77,
+  "name": "p77",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 25,
+  "name": "p25",
+  "label": null
+},
+  "to": {
+  "id": 35,
+  "name": "p35",
+  "label": null
+}
+}, {
+  "label": "T",
+  "from": {
+  "id": 57,
+  "name": "p57",
+  "label": null
+},
+  "to": {
+  "id": 65,
+  "name": "p65",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 52,
+  "name": "p52",
+  "label": null
+},
+  "to": {
+  "id": 62,
+  "name": "p62",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 72,
+  "name": "p72",
+  "label": null
+},
+  "to": {
+  "id": 75,
+  "name": "p75",
+  "label": null
+}
+}, {
+  "label": "U",
+  "from": {
+  "id": 43,
+  "name": "p43",
+  "label": null
+},
+  "to": {
+  "id": 53,
+  "name": "p53",
+  "label": null
+}
+}, {
+  "label": "D",
+  "from": {
+  "id": 66,
+  "name": "p66",
+  "label": null
+},
+  "to": {
+  "id": 72,
+  "name": "p72",
+  "label": null
+}
+}]
+}, {
+  "file": "PRODUCTO_AFD.jff",
+  "declaredType": "AFD",
+  "loaded": true,
+  "readerClass": "file.XMLCodec",
+  "automatonClass": "automata.fsa.FiniteStateAutomaton",
+  "simulatorFactory": "automata.SimulatorFactory",
+  "simulatorClass": "automata.fsa.FSAStepWithClosureSimulator",
+  "stateCount": 64,
+  "transitionCount": 63,
+  "initialState": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "finalStates": [{
+  "id": 38,
+  "name": "q38",
+  "label": null
+}, {
+  "id": 50,
+  "name": "q50",
+  "label": null
+}, {
+  "id": 58,
+  "name": "q58",
+  "label": null
+}, {
+  "id": 60,
+  "name": "q60",
+  "label": null
+}, {
+  "id": 48,
+  "name": "q48",
+  "label": null
+}, {
+  "id": 45,
+  "name": "q45",
+  "label": null
+}, {
+  "id": 54,
+  "name": "q54",
+  "label": null
+}, {
+  "id": 56,
+  "name": "q56",
+  "label": null
+}, {
+  "id": 39,
+  "name": "q39",
+  "label": null
+}, {
+  "id": 63,
+  "name": "q63",
+  "label": null
+}],
+  "states": [{
+  "id": 0,
+  "name": "q0",
+  "label": null
+}, {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}, {
+  "id": 2,
+  "name": "q2",
+  "label": null
+}, {
+  "id": 3,
+  "name": "q3",
+  "label": null
+}, {
+  "id": 4,
+  "name": "q4",
+  "label": null
+}, {
+  "id": 5,
+  "name": "q5",
+  "label": null
+}, {
+  "id": 6,
+  "name": "q6",
+  "label": null
+}, {
+  "id": 7,
+  "name": "q7",
+  "label": null
+}, {
+  "id": 8,
+  "name": "q8",
+  "label": null
+}, {
+  "id": 9,
+  "name": "q9",
+  "label": null
+}, {
+  "id": 10,
+  "name": "q10",
+  "label": null
+}, {
+  "id": 11,
+  "name": "q11",
+  "label": null
+}, {
+  "id": 12,
+  "name": "q12",
+  "label": null
+}, {
+  "id": 13,
+  "name": "q13",
+  "label": null
+}, {
+  "id": 14,
+  "name": "q14",
+  "label": null
+}, {
+  "id": 15,
+  "name": "q15",
+  "label": null
+}, {
+  "id": 16,
+  "name": "q16",
+  "label": null
+}, {
+  "id": 17,
+  "name": "q17",
+  "label": null
+}, {
+  "id": 18,
+  "name": "q18",
+  "label": null
+}, {
+  "id": 19,
+  "name": "q19",
+  "label": null
+}, {
+  "id": 20,
+  "name": "q20",
+  "label": null
+}, {
+  "id": 21,
+  "name": "q21",
+  "label": null
+}, {
+  "id": 22,
+  "name": "q22",
+  "label": null
+}, {
+  "id": 23,
+  "name": "q23",
+  "label": null
+}, {
+  "id": 24,
+  "name": "q24",
+  "label": null
+}, {
+  "id": 25,
+  "name": "q25",
+  "label": null
+}, {
+  "id": 26,
+  "name": "q26",
+  "label": null
+}, {
+  "id": 27,
+  "name": "q27",
+  "label": null
+}, {
+  "id": 28,
+  "name": "q28",
+  "label": null
+}, {
+  "id": 29,
+  "name": "q29",
+  "label": null
+}, {
+  "id": 30,
+  "name": "q30",
+  "label": null
+}, {
+  "id": 31,
+  "name": "q31",
+  "label": null
+}, {
+  "id": 32,
+  "name": "q32",
+  "label": null
+}, {
+  "id": 33,
+  "name": "q33",
+  "label": null
+}, {
+  "id": 34,
+  "name": "q34",
+  "label": null
+}, {
+  "id": 35,
+  "name": "q35",
+  "label": null
+}, {
+  "id": 36,
+  "name": "q36",
+  "label": null
+}, {
+  "id": 37,
+  "name": "q37",
+  "label": null
+}, {
+  "id": 38,
+  "name": "q38",
+  "label": null
+}, {
+  "id": 39,
+  "name": "q39",
+  "label": null
+}, {
+  "id": 40,
+  "name": "q40",
+  "label": null
+}, {
+  "id": 41,
+  "name": "q41",
+  "label": null
+}, {
+  "id": 42,
+  "name": "q42",
+  "label": null
+}, {
+  "id": 43,
+  "name": "q43",
+  "label": null
+}, {
+  "id": 44,
+  "name": "q44",
+  "label": null
+}, {
+  "id": 45,
+  "name": "q45",
+  "label": null
+}, {
+  "id": 46,
+  "name": "q46",
+  "label": null
+}, {
+  "id": 47,
+  "name": "q47",
+  "label": null
+}, {
+  "id": 48,
+  "name": "q48",
+  "label": null
+}, {
+  "id": 49,
+  "name": "q49",
+  "label": null
+}, {
+  "id": 50,
+  "name": "q50",
+  "label": null
+}, {
+  "id": 51,
+  "name": "q51",
+  "label": null
+}, {
+  "id": 52,
+  "name": "q52",
+  "label": null
+}, {
+  "id": 53,
+  "name": "q53",
+  "label": null
+}, {
+  "id": 54,
+  "name": "q54",
+  "label": null
+}, {
+  "id": 55,
+  "name": "q55",
+  "label": null
+}, {
+  "id": 56,
+  "name": "q56",
+  "label": null
+}, {
+  "id": 57,
+  "name": "q57",
+  "label": null
+}, {
+  "id": 58,
+  "name": "q58",
+  "label": null
+}, {
+  "id": 59,
+  "name": "q59",
+  "label": null
+}, {
+  "id": 60,
+  "name": "q60",
+  "label": null
+}, {
+  "id": 61,
+  "name": "q61",
+  "label": null
+}, {
+  "id": 62,
+  "name": "q62",
+  "label": null
+}, {
+  "id": 63,
+  "name": "q63",
+  "label": null
+}],
+  "transitions": [{
+  "label": "L",
+  "from": {
+  "id": 34,
+  "name": "q34",
+  "label": null
+},
+  "to": {
+  "id": 44,
+  "name": "q44",
+  "label": null
+}
+}, {
+  "label": "U",
+  "from": {
+  "id": 7,
+  "name": "q7",
+  "label": null
+},
+  "to": {
+  "id": 16,
+  "name": "q16",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 3,
+  "name": "q3",
+  "label": null
+},
+  "to": {
+  "id": 12,
+  "name": "q12",
+  "label": null
+}
+}, {
+  "label": "C",
+  "from": {
+  "id": 17,
+  "name": "q17",
+  "label": null
+},
+  "to": {
+  "id": 27,
+  "name": "q27",
+  "label": null
+}
+}, {
+  "label": "N",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 7,
+  "name": "q7",
+  "label": null
+}
+}, {
+  "label": "T",
+  "from": {
+  "id": 46,
+  "name": "q46",
+  "label": null
+},
+  "to": {
+  "id": 53,
+  "name": "q53",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 3,
+  "name": "q3",
+  "label": null
+},
+  "to": {
+  "id": 11,
+  "name": "q11",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 6,
+  "name": "q6",
+  "label": null
+},
+  "to": {
+  "id": 15,
+  "name": "q15",
+  "label": null
+}
+}, {
+  "label": "R",
+  "from": {
+  "id": 41,
+  "name": "q41",
+  "label": null
+},
+  "to": {
+  "id": 49,
+  "name": "q49",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 22,
+  "name": "q22",
+  "label": null
+},
+  "to": {
+  "id": 32,
+  "name": "q32",
+  "label": null
+}
+}, {
+  "label": "P",
+  "from": {
+  "id": 9,
+  "name": "q9",
+  "label": null
+},
+  "to": {
+  "id": 19,
+  "name": "q19",
+  "label": null
+}
+}, {
+  "label": "T",
+  "from": {
+  "id": 20,
+  "name": "q20",
+  "label": null
+},
+  "to": {
+  "id": 30,
+  "name": "q30",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 40,
+  "name": "q40",
+  "label": null
+},
+  "to": {
+  "id": 48,
+  "name": "q48",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 57,
+  "name": "q57",
+  "label": null
+},
+  "to": {
+  "id": 60,
+  "name": "q60",
+  "label": null
+}
+}, {
+  "label": "L",
+  "from": {
+  "id": 8,
+  "name": "q8",
+  "label": null
+},
+  "to": {
+  "id": 18,
+  "name": "q18",
+  "label": null
+}
+}, {
+  "label": "G",
+  "from": {
+  "id": 26,
+  "name": "q26",
+  "label": null
+},
+  "to": {
+  "id": 36,
+  "name": "q36",
+  "label": null
+}
+}, {
+  "label": "L",
+  "from": {
+  "id": 18,
+  "name": "q18",
+  "label": null
+},
+  "to": {
+  "id": 28,
+  "name": "q28",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 27,
+  "name": "q27",
+  "label": null
+},
+  "to": {
+  "id": 37,
+  "name": "q37",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 33,
+  "name": "q33",
+  "label": null
+},
+  "to": {
+  "id": 43,
+  "name": "q43",
+  "label": null
+}
+}, {
+  "label": "P",
+  "from": {
+  "id": 8,
+  "name": "q8",
+  "label": null
+},
+  "to": {
+  "id": 17,
+  "name": "q17",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "q2",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 53,
+  "name": "q53",
+  "label": null
+},
+  "to": {
+  "id": 58,
+  "name": "q58",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 62,
+  "name": "q62",
+  "label": null
+},
+  "to": {
+  "id": 63,
+  "name": "q63",
+  "label": null
+}
+}, {
+  "label": "H",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 3,
+  "name": "q3",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 42,
+  "name": "q42",
+  "label": null
+},
+  "to": {
+  "id": 50,
+  "name": "q50",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 14,
+  "name": "q14",
+  "label": null
+},
+  "to": {
+  "id": 24,
+  "name": "q24",
+  "label": null
+}
+}, {
+  "label": "N",
+  "from": {
+  "id": 47,
+  "name": "q47",
+  "label": null
+},
+  "to": {
+  "id": 54,
+  "name": "q54",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 29,
+  "name": "q29",
+  "label": null
+},
+  "to": {
+  "id": 39,
+  "name": "q39",
+  "label": null
+}
+}, {
+  "label": "D",
+  "from": {
+  "id": 52,
+  "name": "q52",
+  "label": null
+},
+  "to": {
+  "id": 57,
+  "name": "q57",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 9,
+  "name": "q9",
+  "label": null
+}
+}, {
+  "label": "D",
+  "from": {
+  "id": 32,
+  "name": "q32",
+  "label": null
+},
+  "to": {
+  "id": 42,
+  "name": "q42",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 19,
+  "name": "q19",
+  "label": null
+},
+  "to": {
+  "id": 29,
+  "name": "q29",
+  "label": null
+}
+}, {
+  "label": "L",
+  "from": {
+  "id": 12,
+  "name": "q12",
+  "label": null
+},
+  "to": {
+  "id": 22,
+  "name": "q22",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 24,
+  "name": "q24",
+  "label": null
+},
+  "to": {
+  "id": 34,
+  "name": "q34",
+  "label": null
+}
+}, {
+  "label": "G",
+  "from": {
+  "id": 16,
+  "name": "q16",
+  "label": null
+},
+  "to": {
+  "id": 26,
+  "name": "q26",
+  "label": null
+}
+}, {
+  "label": "L",
+  "from": {
+  "id": 2,
+  "name": "q2",
+  "label": null
+},
+  "to": {
+  "id": 10,
+  "name": "q10",
+  "label": null
+}
+}, {
+  "label": "C",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 6,
+  "name": "q6",
+  "label": null
+}
+}, {
+  "label": "M",
+  "from": {
+  "id": 11,
+  "name": "q11",
+  "label": null
+},
+  "to": {
+  "id": 21,
+  "name": "q21",
+  "label": null
+}
+}, {
+  "label": "P",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "N",
+  "from": {
+  "id": 5,
+  "name": "q5",
+  "label": null
+},
+  "to": {
+  "id": 14,
+  "name": "q14",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 4,
+  "name": "q4",
+  "label": null
+},
+  "to": {
+  "id": 13,
+  "name": "q13",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 59,
+  "name": "q59",
+  "label": null
+},
+  "to": {
+  "id": 61,
+  "name": "q61",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 23,
+  "name": "q23",
+  "label": null
+},
+  "to": {
+  "id": 33,
+  "name": "q33",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 36,
+  "name": "q36",
+  "label": null
+},
+  "to": {
+  "id": 46,
+  "name": "q46",
+  "label": null
+}
+}, {
+  "label": "G",
+  "from": {
+  "id": 49,
+  "name": "q49",
+  "label": null
+},
+  "to": {
+  "id": 55,
+  "name": "q55",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 13,
+  "name": "q13",
+  "label": null
+},
+  "to": {
+  "id": 23,
+  "name": "q23",
+  "label": null
+}
+}, {
+  "label": "M",
+  "from": {
+  "id": 15,
+  "name": "q15",
+  "label": null
+},
+  "to": {
+  "id": 25,
+  "name": "q25",
+  "label": null
+}
+}, {
+  "label": "U",
+  "from": {
+  "id": 31,
+  "name": "q31",
+  "label": null
+},
+  "to": {
+  "id": 41,
+  "name": "q41",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 51,
+  "name": "q51",
+  "label": null
+},
+  "to": {
+  "id": 56,
+  "name": "q56",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 61,
+  "name": "q61",
+  "label": null
+},
+  "to": {
+  "id": 62,
+  "name": "q62",
+  "label": null
+}
+}, {
+  "label": "B",
+  "from": {
+  "id": 21,
+  "name": "q21",
+  "label": null
+},
+  "to": {
+  "id": 31,
+  "name": "q31",
+  "label": null
+}
+}, {
+  "label": "B",
+  "from": {
+  "id": 25,
+  "name": "q25",
+  "label": null
+},
+  "to": {
+  "id": 35,
+  "name": "q35",
+  "label": null
+}
+}, {
+  "label": "U",
+  "from": {
+  "id": 55,
+  "name": "q55",
+  "label": null
+},
+  "to": {
+  "id": 59,
+  "name": "q59",
+  "label": null
+}
+}, {
+  "label": "G",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 4,
+  "name": "q4",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 8,
+  "name": "q8",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 30,
+  "name": "q30",
+  "label": null
+},
+  "to": {
+  "id": 40,
+  "name": "q40",
+  "label": null
+}
+}, {
+  "label": "R",
+  "from": {
+  "id": 37,
+  "name": "q37",
+  "label": null
+},
+  "to": {
+  "id": 47,
+  "name": "q47",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 5,
+  "name": "q5",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 28,
+  "name": "q28",
+  "label": null
+},
+  "to": {
+  "id": 38,
+  "name": "q38",
+  "label": null
+}
+}, {
+  "label": "S",
+  "from": {
+  "id": 43,
+  "name": "q43",
+  "label": null
+},
+  "to": {
+  "id": 51,
+  "name": "q51",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 35,
+  "name": "q35",
+  "label": null
+},
+  "to": {
+  "id": 45,
+  "name": "q45",
+  "label": null
+}
+}, {
+  "label": "I",
+  "from": {
+  "id": 10,
+  "name": "q10",
+  "label": null
+},
+  "to": {
+  "id": 20,
+  "name": "q20",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 44,
+  "name": "q44",
+  "label": null
+},
+  "to": {
+  "id": 52,
+  "name": "q52",
+  "label": null
+}
+}]
+}, {
+  "file": "CANTIDAD_AFND.jff",
+  "declaredType": "AFND",
+  "loaded": true,
+  "readerClass": "file.XMLCodec",
+  "automatonClass": "automata.fsa.FiniteStateAutomaton",
+  "simulatorFactory": "automata.SimulatorFactory",
+  "simulatorClass": "automata.fsa.FSAStepWithClosureSimulator",
+  "stateCount": 4,
+  "transitionCount": 13,
+  "initialState": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "finalStates": [{
+  "id": 3,
+  "name": "p3",
+  "label": null
+}],
+  "states": [{
+  "id": 0,
+  "name": "p0",
+  "label": null
+}, {
+  "id": 1,
+  "name": "p1",
+  "label": null
+}, {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}, {
+  "id": 3,
+  "name": "p3",
+  "label": null
+}],
+  "transitions": [{
+  "label": "",
+  "from": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+}
+}, {
+  "label": "5",
+  "from": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}
+}, {
+  "label": "4",
+  "from": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}
+}, {
+  "label": "7",
+  "from": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}
+}, {
+  "label": "6",
+  "from": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}
+}, {
+  "label": "1",
+  "from": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}
+}, {
+  "label": "0",
+  "from": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}
+}, {
+  "label": "3",
+  "from": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}
+}, {
+  "label": "2",
+  "from": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}
+}, {
+  "label": "9",
+  "from": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}
+}, {
+  "label": "8",
+  "from": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+},
+  "to": {
+  "id": 3,
+  "name": "p3",
+  "label": null
+}
+}]
+}, {
+  "file": "CANTIDAD_AFD.jff",
+  "declaredType": "AFD",
+  "loaded": true,
+  "readerClass": "file.XMLCodec",
+  "automatonClass": "automata.fsa.FiniteStateAutomaton",
+  "simulatorFactory": "automata.SimulatorFactory",
+  "simulatorClass": "automata.fsa.FSAStepWithClosureSimulator",
+  "stateCount": 2,
+  "transitionCount": 20,
+  "initialState": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "finalStates": [{
+  "id": 1,
+  "name": "q1",
+  "label": null
+}],
+  "states": [{
+  "id": 0,
+  "name": "q0",
+  "label": null
+}, {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}],
+  "transitions": [{
+  "label": "9",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "8",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "7",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "6",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "5",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "4",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "3",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "2",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "1",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "0",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "0",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "1",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "2",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "3",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "4",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "5",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "6",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "7",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "8",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "9",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}]
+}, {
+  "file": "PAGO_AFND.jff",
+  "declaredType": "AFND",
+  "loaded": true,
+  "readerClass": "file.XMLCodec",
+  "automatonClass": "automata.fsa.FiniteStateAutomaton",
+  "simulatorFactory": "automata.SimulatorFactory",
+  "simulatorClass": "automata.fsa.FSAStepWithClosureSimulator",
+  "stateCount": 29,
+  "transitionCount": 31,
+  "initialState": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "finalStates": [{
+  "id": 23,
+  "name": "p23",
+  "label": null
+}],
+  "states": [{
+  "id": 0,
+  "name": "p0",
+  "label": null
+}, {
+  "id": 1,
+  "name": "p1",
+  "label": null
+}, {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}, {
+  "id": 3,
+  "name": "p3",
+  "label": null
+}, {
+  "id": 4,
+  "name": "p4",
+  "label": null
+}, {
+  "id": 5,
+  "name": "p5",
+  "label": null
+}, {
+  "id": 6,
+  "name": "p6",
+  "label": null
+}, {
+  "id": 7,
+  "name": "p7",
+  "label": null
+}, {
+  "id": 8,
+  "name": "p8",
+  "label": null
+}, {
+  "id": 9,
+  "name": "p9",
+  "label": null
+}, {
+  "id": 10,
+  "name": "p10",
+  "label": null
+}, {
+  "id": 11,
+  "name": "p11",
+  "label": null
+}, {
+  "id": 12,
+  "name": "p12",
+  "label": null
+}, {
+  "id": 13,
+  "name": "p13",
+  "label": null
+}, {
+  "id": 14,
+  "name": "p14",
+  "label": null
+}, {
+  "id": 15,
+  "name": "p15",
+  "label": null
+}, {
+  "id": 16,
+  "name": "p16",
+  "label": null
+}, {
+  "id": 17,
+  "name": "p17",
+  "label": null
+}, {
+  "id": 18,
+  "name": "p18",
+  "label": null
+}, {
+  "id": 19,
+  "name": "p19",
+  "label": null
+}, {
+  "id": 20,
+  "name": "p20",
+  "label": null
+}, {
+  "id": 21,
+  "name": "p21",
+  "label": null
+}, {
+  "id": 22,
+  "name": "p22",
+  "label": null
+}, {
+  "id": 23,
+  "name": "p23",
+  "label": null
+}, {
+  "id": 24,
+  "name": "p24",
+  "label": null
+}, {
+  "id": 25,
+  "name": "p25",
+  "label": null
+}, {
+  "id": 26,
+  "name": "p26",
+  "label": null
+}, {
+  "id": 27,
+  "name": "p27",
+  "label": null
+}, {
+  "id": 28,
+  "name": "p28",
+  "label": null
+}],
+  "transitions": [{
+  "label": "J",
+  "from": {
+  "id": 14,
+  "name": "p14",
+  "label": null
+},
+  "to": {
+  "id": 18,
+  "name": "p18",
+  "label": null
+}
+}, {
+  "label": "F",
+  "from": {
+  "id": 5,
+  "name": "p5",
+  "label": null
+},
+  "to": {
+  "id": 9,
+  "name": "p9",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 18,
+  "name": "p18",
+  "label": null
+},
+  "to": {
+  "id": 22,
+  "name": "p22",
+  "label": null
+}
+}, {
+  "label": "I",
+  "from": {
+  "id": 12,
+  "name": "p12",
+  "label": null
+},
+  "to": {
+  "id": 16,
+  "name": "p16",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 26,
+  "name": "p26",
+  "label": null
+},
+  "to": {
+  "id": 28,
+  "name": "p28",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 28,
+  "name": "p28",
+  "label": null
+},
+  "to": {
+  "id": 23,
+  "name": "p23",
+  "label": null
+}
+}, {
+  "label": "V",
+  "from": {
+  "id": 24,
+  "name": "p24",
+  "label": null
+},
+  "to": {
+  "id": 26,
+  "name": "p26",
+  "label": null
+}
+}, {
+  "label": "T",
+  "from": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+},
+  "to": {
+  "id": 6,
+  "name": "p6",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 7,
+  "name": "p7",
+  "label": null
+},
+  "to": {
+  "id": 11,
+  "name": "p11",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 4,
+  "name": "p4",
+  "label": null
+}
+}, {
+  "label": "T",
+  "from": {
+  "id": 17,
+  "name": "p17",
+  "label": null
+},
+  "to": {
+  "id": 21,
+  "name": "p21",
+  "label": null
+}
+}, {
+  "label": "T",
+  "from": {
+  "id": 22,
+  "name": "p22",
+  "label": null
+},
+  "to": {
+  "id": 25,
+  "name": "p25",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 19,
+  "name": "p19",
+  "label": null
+},
+  "to": {
+  "id": 23,
+  "name": "p23",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "p2",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 9,
+  "name": "p9",
+  "label": null
+},
+  "to": {
+  "id": 13,
+  "name": "p13",
+  "label": null
+}
+}, {
+  "label": "R",
+  "from": {
+  "id": 10,
+  "name": "p10",
+  "label": null
+},
+  "to": {
+  "id": 14,
+  "name": "p14",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 20,
+  "name": "p20",
+  "label": null
+},
+  "to": {
+  "id": 23,
+  "name": "p23",
+  "label": null
+}
+}, {
+  "label": "I",
+  "from": {
+  "id": 21,
+  "name": "p21",
+  "label": null
+},
+  "to": {
+  "id": 24,
+  "name": "p24",
+  "label": null
+}
+}, {
+  "label": "P",
+  "from": {
+  "id": 11,
+  "name": "p11",
+  "label": null
+},
+  "to": {
+  "id": 15,
+  "name": "p15",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 6,
+  "name": "p6",
+  "label": null
+},
+  "to": {
+  "id": 10,
+  "name": "p10",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 0,
+  "name": "p0",
+  "label": null
+},
+  "to": {
+  "id": 3,
+  "name": "p3",
+  "label": null
+}
+}, {
+  "label": "N",
+  "from": {
+  "id": 16,
+  "name": "p16",
+  "label": null
+},
+  "to": {
+  "id": 20,
+  "name": "p20",
+  "label": null
+}
+}, {
+  "label": "L",
+  "from": {
+  "id": 8,
+  "name": "p8",
+  "label": null
+},
+  "to": {
+  "id": 12,
+  "name": "p12",
+  "label": null
+}
+}, {
+  "label": "P",
+  "from": {
+  "id": 4,
+  "name": "p4",
+  "label": null
+},
+  "to": {
+  "id": 8,
+  "name": "p8",
+  "label": null
+}
+}, {
+  "label": "C",
+  "from": {
+  "id": 13,
+  "name": "p13",
+  "label": null
+},
+  "to": {
+  "id": 17,
+  "name": "p17",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 15,
+  "name": "p15",
+  "label": null
+},
+  "to": {
+  "id": 19,
+  "name": "p19",
+  "label": null
+}
+}, {
+  "label": "Y",
+  "from": {
+  "id": 3,
+  "name": "p3",
+  "label": null
+},
+  "to": {
+  "id": 7,
+  "name": "p7",
+  "label": null
+}
+}, {
+  "label": "",
+  "from": {
+  "id": 27,
+  "name": "p27",
+  "label": null
+},
+  "to": {
+  "id": 23,
+  "name": "p23",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 25,
+  "name": "p25",
+  "label": null
+},
+  "to": {
+  "id": 27,
+  "name": "p27",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 1,
+  "name": "p1",
+  "label": null
+},
+  "to": {
+  "id": 5,
+  "name": "p5",
+  "label": null
+}
+}]
+}, {
+  "file": "PAGO_AFD.jff",
+  "declaredType": "AFD",
+  "loaded": true,
+  "readerClass": "file.XMLCodec",
+  "automatonClass": "automata.fsa.FiniteStateAutomaton",
+  "simulatorFactory": "automata.SimulatorFactory",
+  "simulatorClass": "automata.fsa.FSAStepWithClosureSimulator",
+  "stateCount": 24,
+  "transitionCount": 23,
+  "initialState": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "finalStates": [{
+  "id": 23,
+  "name": "q23",
+  "label": null
+}, {
+  "id": 22,
+  "name": "q22",
+  "label": null
+}, {
+  "id": 15,
+  "name": "q15",
+  "label": null
+}, {
+  "id": 16,
+  "name": "q16",
+  "label": null
+}],
+  "states": [{
+  "id": 0,
+  "name": "q0",
+  "label": null
+}, {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}, {
+  "id": 2,
+  "name": "q2",
+  "label": null
+}, {
+  "id": 3,
+  "name": "q3",
+  "label": null
+}, {
+  "id": 4,
+  "name": "q4",
+  "label": null
+}, {
+  "id": 5,
+  "name": "q5",
+  "label": null
+}, {
+  "id": 6,
+  "name": "q6",
+  "label": null
+}, {
+  "id": 7,
+  "name": "q7",
+  "label": null
+}, {
+  "id": 8,
+  "name": "q8",
+  "label": null
+}, {
+  "id": 9,
+  "name": "q9",
+  "label": null
+}, {
+  "id": 10,
+  "name": "q10",
+  "label": null
+}, {
+  "id": 11,
+  "name": "q11",
+  "label": null
+}, {
+  "id": 12,
+  "name": "q12",
+  "label": null
+}, {
+  "id": 13,
+  "name": "q13",
+  "label": null
+}, {
+  "id": 14,
+  "name": "q14",
+  "label": null
+}, {
+  "id": 15,
+  "name": "q15",
+  "label": null
+}, {
+  "id": 16,
+  "name": "q16",
+  "label": null
+}, {
+  "id": 17,
+  "name": "q17",
+  "label": null
+}, {
+  "id": 18,
+  "name": "q18",
+  "label": null
+}, {
+  "id": 19,
+  "name": "q19",
+  "label": null
+}, {
+  "id": 20,
+  "name": "q20",
+  "label": null
+}, {
+  "id": 21,
+  "name": "q21",
+  "label": null
+}, {
+  "id": 22,
+  "name": "q22",
+  "label": null
+}, {
+  "id": 23,
+  "name": "q23",
+  "label": null
+}],
+  "transitions": [{
+  "label": "F",
+  "from": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+},
+  "to": {
+  "id": 5,
+  "name": "q5",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 11,
+  "name": "q11",
+  "label": null
+},
+  "to": {
+  "id": 15,
+  "name": "q15",
+  "label": null
+}
+}, {
+  "label": "T",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 2,
+  "name": "q2",
+  "label": null
+}
+}, {
+  "label": "N",
+  "from": {
+  "id": 12,
+  "name": "q12",
+  "label": null
+},
+  "to": {
+  "id": 16,
+  "name": "q16",
+  "label": null
+}
+}, {
+  "label": "I",
+  "from": {
+  "id": 17,
+  "name": "q17",
+  "label": null
+},
+  "to": {
+  "id": 19,
+  "name": "q19",
+  "label": null
+}
+}, {
+  "label": "T",
+  "from": {
+  "id": 18,
+  "name": "q18",
+  "label": null
+},
+  "to": {
+  "id": 20,
+  "name": "q20",
+  "label": null
+}
+}, {
+  "label": "O",
+  "from": {
+  "id": 21,
+  "name": "q21",
+  "label": null
+},
+  "to": {
+  "id": 23,
+  "name": "q23",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 5,
+  "name": "q5",
+  "label": null
+},
+  "to": {
+  "id": 9,
+  "name": "q9",
+  "label": null
+}
+}, {
+  "label": "P",
+  "from": {
+  "id": 7,
+  "name": "q7",
+  "label": null
+},
+  "to": {
+  "id": 11,
+  "name": "q11",
+  "label": null
+}
+}, {
+  "label": "V",
+  "from": {
+  "id": 19,
+  "name": "q19",
+  "label": null
+},
+  "to": {
+  "id": 21,
+  "name": "q21",
+  "label": null
+}
+}, {
+  "label": "I",
+  "from": {
+  "id": 8,
+  "name": "q8",
+  "label": null
+},
+  "to": {
+  "id": 12,
+  "name": "q12",
+  "label": null
+}
+}, {
+  "label": "C",
+  "from": {
+  "id": 9,
+  "name": "q9",
+  "label": null
+},
+  "to": {
+  "id": 13,
+  "name": "q13",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 3,
+  "name": "q3",
+  "label": null
+},
+  "to": {
+  "id": 7,
+  "name": "q7",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 20,
+  "name": "q20",
+  "label": null
+},
+  "to": {
+  "id": 22,
+  "name": "q22",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 1,
+  "name": "q1",
+  "label": null
+}
+}, {
+  "label": "T",
+  "from": {
+  "id": 13,
+  "name": "q13",
+  "label": null
+},
+  "to": {
+  "id": 17,
+  "name": "q17",
+  "label": null
+}
+}, {
+  "label": "Y",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 3,
+  "name": "q3",
+  "label": null
+}
+}, {
+  "label": "E",
+  "from": {
+  "id": 14,
+  "name": "q14",
+  "label": null
+},
+  "to": {
+  "id": 18,
+  "name": "q18",
+  "label": null
+}
+}, {
+  "label": "L",
+  "from": {
+  "id": 4,
+  "name": "q4",
+  "label": null
+},
+  "to": {
+  "id": 8,
+  "name": "q8",
+  "label": null
+}
+}, {
+  "label": "A",
+  "from": {
+  "id": 2,
+  "name": "q2",
+  "label": null
+},
+  "to": {
+  "id": 6,
+  "name": "q6",
+  "label": null
+}
+}, {
+  "label": "R",
+  "from": {
+  "id": 6,
+  "name": "q6",
+  "label": null
+},
+  "to": {
+  "id": 10,
+  "name": "q10",
+  "label": null
+}
+}, {
+  "label": "P",
+  "from": {
+  "id": 0,
+  "name": "q0",
+  "label": null
+},
+  "to": {
+  "id": 4,
+  "name": "q4",
+  "label": null
+}
+}, {
+  "label": "J",
+  "from": {
+  "id": 10,
+  "name": "q10",
+  "label": null
+},
+  "to": {
+  "id": 14,
+  "name": "q14",
+  "label": null
+}
+}]
+}],
+  "simulations": [{
+  "file": "PRODUCTO_AFND.jff",
+  "input": "POLLO",
+  "expected": "ACEPTAR",
+  "actual": "ACEPTAR",
+  "passed": true
+}, {
+  "file": "PRODUCTO_AFND.jff",
+  "input": "PIZZA",
+  "expected": "RECHAZAR",
+  "actual": "RECHAZAR",
+  "passed": true
+}, {
+  "file": "PRODUCTO_AFD.jff",
+  "input": "POLLO",
+  "expected": "ACEPTAR",
+  "actual": "ACEPTAR",
+  "passed": true
+}, {
+  "file": "PRODUCTO_AFD.jff",
+  "input": "PIZZA",
+  "expected": "RECHAZAR",
+  "actual": "RECHAZAR",
+  "passed": true
+}, {
+  "file": "CANTIDAD_AFND.jff",
+  "input": "12",
+  "expected": "ACEPTAR",
+  "actual": "ACEPTAR",
+  "passed": true
+}, {
+  "file": "CANTIDAD_AFND.jff",
+  "input": "0",
+  "expected": "ACEPTAR",
+  "actual": "ACEPTAR",
+  "passed": true
+}, {
+  "file": "CANTIDAD_AFND.jff",
+  "input": "١",
+  "expected": "RECHAZAR",
+  "actual": "RECHAZAR",
+  "passed": true
+}, {
+  "file": "CANTIDAD_AFND.jff",
+  "input": "²",
+  "expected": "RECHAZAR",
+  "actual": "RECHAZAR",
+  "passed": true
+}, {
+  "file": "CANTIDAD_AFD.jff",
+  "input": "12",
+  "expected": "ACEPTAR",
+  "actual": "ACEPTAR",
+  "passed": true
+}, {
+  "file": "CANTIDAD_AFD.jff",
+  "input": "0",
+  "expected": "ACEPTAR",
+  "actual": "ACEPTAR",
+  "passed": true
+}, {
+  "file": "CANTIDAD_AFD.jff",
+  "input": "١",
+  "expected": "RECHAZAR",
+  "actual": "RECHAZAR",
+  "passed": true
+}, {
+  "file": "CANTIDAD_AFD.jff",
+  "input": "²",
+  "expected": "RECHAZAR",
+  "actual": "RECHAZAR",
+  "passed": true
+}, {
+  "file": "PAGO_AFND.jff",
+  "input": "YAPE",
+  "expected": "ACEPTAR",
+  "actual": "ACEPTAR",
+  "passed": true
+}, {
+  "file": "PAGO_AFND.jff",
+  "input": "BITCOIN",
+  "expected": "RECHAZAR",
+  "actual": "RECHAZAR",
+  "passed": true
+}, {
+  "file": "PAGO_AFD.jff",
+  "input": "YAPE",
+  "expected": "ACEPTAR",
+  "actual": "ACEPTAR",
+  "passed": true
+}, {
+  "file": "PAGO_AFD.jff",
+  "input": "BITCOIN",
+  "expected": "RECHAZAR",
+  "actual": "RECHAZAR",
+  "passed": true
+}],
+  "nfaDfaCaseComparisons": [{
+  "token": "PRODUCTO",
+  "input": "POLLO",
+  "afnd": "ACEPTAR",
+  "afd": "ACEPTAR",
+  "sameResult": true
+}, {
+  "token": "PRODUCTO",
+  "input": "PIZZA",
+  "afnd": "RECHAZAR",
+  "afd": "RECHAZAR",
+  "sameResult": true
+}, {
+  "token": "CANTIDAD",
+  "input": "12",
+  "afnd": "ACEPTAR",
+  "afd": "ACEPTAR",
+  "sameResult": true
+}, {
+  "token": "CANTIDAD",
+  "input": "0",
+  "afnd": "ACEPTAR",
+  "afd": "ACEPTAR",
+  "sameResult": true
+}, {
+  "token": "CANTIDAD",
+  "input": "١",
+  "afnd": "RECHAZAR",
+  "afd": "RECHAZAR",
+  "sameResult": true
+}, {
+  "token": "CANTIDAD",
+  "input": "²",
+  "afnd": "RECHAZAR",
+  "afd": "RECHAZAR",
+  "sameResult": true
+}, {
+  "token": "PAGO",
+  "input": "YAPE",
+  "afnd": "ACEPTAR",
+  "afd": "ACEPTAR",
+  "sameResult": true
+}, {
+  "token": "PAGO",
+  "input": "BITCOIN",
+  "afnd": "RECHAZAR",
+  "afd": "RECHAZAR",
+  "sameResult": true
+}],
+  "summary": {
+  "loadedFiles": 6,
+  "simulations": 16,
+  "passed": 16,
+  "nfaDfaComparisons": 8,
+  "nfaDfaMismatches": 0,
+  "files": 6,
+  "failed": 0
+}
+}
