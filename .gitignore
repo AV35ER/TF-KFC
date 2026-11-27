@@ -16,6 +16,8 @@ htmlcov/
 !.env.example
 *.log
 .netlify/
+/netlify/server/runtime/
+/public/
 .render/
 .DS_Store
 Thumbs.db

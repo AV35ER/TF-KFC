@@ -109,10 +109,15 @@ Este repositorio contiene una aplicación Flask con páginas renderizadas en ser
 
 ### Netlify
 
-Netlify puede compilar proyectos con Python disponible en el entorno de build, pero eso no proporciona un servidor Python para atender rutas Flask. Los Netlify Servers documentados actualmente ejecutan servidores Node.js escritos en JavaScript o TypeScript; las Functions documentadas usan handlers JavaScript/TypeScript (y existe una API compatible para Go). Por ello, conectar este repositorio tal como está a Netlify no desplegará funcionalmente /, /api/analizar ni /reporte-traduccion.pdf. No se incluye un netlify.toml que aparente resolverlo o publique solo archivos estáticos.
+El proyecto usa Netlify Server con Node.js 24 y ejecuta la misma aplicación Flask mediante Pyodide (Python en WebAssembly). El despliegue incluye la interfaz, el análisis por formulario o archivo, la API JSON y las descargas PDF y JFLAP. `netlify.toml` prepara los archivos estáticos y empaqueta el entorno de Python, por lo que el servidor no necesita descargar dependencias al recibir solicitudes.
 
-La alternativa compatible para la aplicación actual es desplegar Flask en un servicio que ejecute contenedores, por ejemplo Render. render.yaml configura un servicio Docker basado en el Dockerfile del proyecto y comprueba su estado en `/`. En Render, importa este repositorio y aplica el Blueprint; no se necesitan variables privadas. El plan gratuito puede tener límites de disponibilidad definidos por Render.
+Para probar el adaptador localmente con Node.js 24 y Netlify CLI 27.17 o posterior:
 
-Netlify podría alojar una interfaz estática en el futuro si se separa del backend Flask y se configura para llamar a una API desplegada con una URL real. Esa separación y la URL del backend no existen en este proyecto, así que no se simula ese despliegue ni se añade una redirección a un destino inventado.
+```sh
+npm ci
+node scripts/preparar-netlify.mjs
+npm test
+netlify dev --port 8889
+```
 
-Configuración de Render: https://render.com/docs/blueprint-spec
+El PDF de Netlify usa ReportLab 5.0.0 por compatibilidad con la versión de Pillow disponible en Pyodide. El despliegue de Flask en Docker/Render continúa usando las dependencias de `requirements.txt`.
